@@ -8,6 +8,8 @@ correct value and type in command lime command - mvn clean test -P qa.
 To execute smoke test on local environment type in command line command -  
 mvn test -Dcucumber.filter.tags=@Smoke -P local.
 
+To execute tests from Idea activate local profile in Maven in right top bar.
+
 
 2. Reporting
 
