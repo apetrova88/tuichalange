@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: tuichalange.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 129, Failures: 6, Errors: 0, Skipped: 115, Time elapsed: 1.949 s <<< FAILURE! -- in tuichalange.RunCucumberTest
+Examples.Example #1.1 -- Time elapsed: 0.068 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesOwnerPetsWithName(PetSteps.java:64)
+	at ✽.user creates pet with owner with name (file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/createPetTests.feature:18)
+
+Examples.Example #1.2 -- Time elapsed: 0.036 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesOwnerPetsWithName(PetSteps.java:64)
+	at ✽.user creates pet with owner with name A(file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/createPetTests.feature:18)
+
+Examples.Example #1.3 -- Time elapsed: 0.038 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesOwnerPetsWithName(PetSteps.java:64)
+	at ✽.user creates pet with owner with name Bin(file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/createPetTests.feature:18)
+
+Examples.Example #1.4 -- Time elapsed: 0.030 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesOwnerPetsWithName(PetSteps.java:64)
+	at ✽.user creates pet with owner with name ThirtyCharsTestNametesttestte(file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/createPetTests.feature:18)
+
+Examples.Example #1.5 -- Time elapsed: 0.032 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesOwnerPetsWithName(PetSteps.java:64)
+	at ✽.user creates pet with owner with name test_*()&^%$#@!?/(file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/createPetTests.feature:18)
+
+Get Pet Details Api Tests.Owner pet details can be requested by id -- Time elapsed: 0.033 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <201> but was: <400>
+	at tuichalange.actions.ApiActions.createPetWithOwner(ApiActions.java:152)
+	at tuichalange.steps.PetSteps.userCreatesPet(PetSteps.java:71)
+	at ✽.user creates pet with owner(file:///Users/apetrova/Documents/examples/src/test/resources/tuichalange/features/pet/getPetDetailsTests.feature:6)
+
